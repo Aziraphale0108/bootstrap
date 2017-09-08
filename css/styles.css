@@ -1,0 +1,494 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+#header-nav {
+    background-color: #ffffff;
+}
+
+#logo-img {
+    background: url('http://via.placeholder.com/150.png/b3ffff/b3ffff') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 75px;
+}
+
+.navbar-brand h1 {
+    color: #b3b3b3;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 15px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: #b3b3b3;
+}
+
+#nav-list a:hover {
+    background-color: #cceeff;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+/* END HEADER */
+
+
+/* FOOTER */
+
+.panel-footer {
+    background-color: #99ffd6;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 0;
+}
+
+.panel-footer div .row {
+    margin-bottom: 30px;
+}
+
+#hours,
+#address {
+    line-height: 2;
+}
+
+#hours>span,
+#address>span {
+    font-size: 1.3em;
+}
+
+#comment {
+    font-style: italic;
+}
+
+#comment p:nth-child(2) {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+/* END FOOTER*/
+
+
+/* HOME PAGE */
+
+#menu-tiles,
+#special-tiles,
+#map-tiles {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #f0f5f5;
+    overflow: hidden;
+}
+
+#menu-tiles:hover,
+#special-tiles:hover,
+#map-tiles:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tiles {
+    background: url('http://via.placeholder.com/360x250.png/80e5ff/80e5ff') no-repeat;
+    background-position: center;
+}
+
+#special-tiles {
+    background: url('http://via.placeholder.com/360x250.png/80e5ff/80e5ff') no-repeat;
+    background-position: center;
+}
+
+
+
+#menu-tiles span,
+#special-tiles span,
+#map-tiles span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    background-color: #0000ff;
+    color: #fff;
+    opacity: .5;
+}
+
+
+
+
+
+
+/* END HOME PAGE */
+
+
+/* MENU LIST */
+
+#main-content h2 {
+    color: #b3b3b3;
+}
+
+.single-tile {
+    position: relative;
+    border: 2px solid #f0f5f5;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.single-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background-color: #0000ff;
+    color: #fff;
+    opacity: .5;
+}
+
+.single-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+
+
+/* END MENU LIST */
+
+
+/* SINGLE MENU */
+
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+    height: 1px;
+    background-color: black;
+    border: 0;
+    width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #f0f5f5;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    text-align: center;
+    background-color: #0000ff;
+    color: #fff;
+    opacity: .5;
+}
+
+.menu-item-description {
+    padding-right: 30px;
+}
+
+.menu-item-title {
+    margin: 0 0 10px;
+}
+
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+
+
+
+/* END SINGLE MENU */
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+    /* HOME PAGE */
+    .container .jumbotron {
+        background: url('http://via.placeholder.com/1200x500.png/ccffff/ccffff') no-repeat;
+        height: 500px;
+    }
+    /* END HOME PAGE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* HEADER */
+    #logo-img {
+        background: url('http://via.placeholder.com/100.png/e6ffff/e6ffff') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+    .navbar-brand {
+        padding-top: 45px;
+    }
+    /* END HEADER */
+    /* HOME PAGE */
+    .container .jumbotron {
+        background: url('http://via.placeholder.com/992x400.png/ccffff/ccffff') no-repeat;
+        height: 400px;
+    }
+    /* END HOME PAGE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* HEADER */
+    .navbar-brand {
+        padding-top: 35px;
+    }
+    /* END HEADER */
+    /* HOME PAGE */
+    .container .jumbotron {
+        background: url('http://via.placeholder.com/768x300.png/ccffff/ccffff') no-repeat;
+        height: 300px;
+    }
+    /* END HOME PAGE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    /* HEADER */
+    .navbar-brand {
+        padding-top: 20px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn>a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #b3b3b3;
+        color: #b3b3b3;
+    }
+    /* END HEADER */
+    /* HOME PAGE */
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    #project-tiles,
+    #skill-tiles {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+    /* END HOME PAGE */
+    /* FOOTER */
+    .panel-footer section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .panel-footer section hr {
+        height: 1px;
+        background-color: black;
+        border: 0;
+        width: 50%;
+    }
+    /* END FOOTER */
+    /* SINGLE MENU */
+    .menu-item-photo{
+    	margin-right: auto;
+    }
+
+    .menu-item-tile .menu-item-price{
+    	text-align: center;
+    }
+
+    .menu-item-description{
+    	text-align: center;
+    }
+    /* END SINGLE MENU */
+}
+
+
+
+
+
+
+
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    /* HEADER */
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    /* END HEADER */
+    /* HOME PAGE */
+    #project-tiles,
+    #skill-tiles {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    /* END HOME PAGE */
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}
